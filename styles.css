@@ -1,0 +1,182 @@
+/* Tag Selector */
+
+body {
+    margin: 0;
+    background-color: rgb(133, 89, 89);
+}
+
+h1, h2, h3, h4 {
+    margin-top: 0;
+    margin-bottom: 0; 
+}
+
+p {
+    margin-bottom: 0;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+/* Class Selector */
+
+.header {
+    position: relative;
+    background-color: rgb(73, 73, 73);
+}
+
+.header h1 {
+    font-size: 50px;
+    display: inline-block;
+    color: whitesmoke;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.content-list ul {
+    margin-left: 20px;
+    display: inline-block;
+    list-style-type: none;
+}
+
+.content-list li {
+    float: left;
+}
+
+.content-list a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 20px;
+}
+
+.content-list a:hover {
+    text-decoration: underline;
+    color: whitesmoke;
+    padding: 20px;
+}
+
+.help-button {
+    position: absolute;
+    font-size: 50px;
+    top: 10px;
+    right: 40px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.period {
+    position: fixed;
+    padding: 10px 60px 10px 15px;
+    right: 200px;
+    border: 2px solid rgb(77, 66, 66);
+    background-color: rgb(185, 132, 132);
+}
+
+.period h3 {
+    margin-bottom: 10px;
+}
+
+.period ul {
+    list-style-type: none;
+}
+
+.period li {
+    margin-bottom: 10px;
+}
+
+.period a {
+    text-decoration: none;
+    color: black;
+}
+
+.view-count {
+    position: fixed;
+    padding: 10px 40px 10px 15px;
+    right: 20px;
+    border: 2px solid rgb(77, 66, 66);
+    background-color: rgb(185, 132, 132);
+}
+
+.view-count h3 {
+    margin-bottom: 10px;
+}
+
+.view-count ul {
+    list-style-type: none;
+}
+
+.view-count li {
+    margin-bottom: 10px;
+}
+
+.view-count a {
+    text-decoration: none;
+    color: black;
+}
+
+.news-box {
+    background-color: rgb(185, 132, 132);
+    position: relative;
+    margin: 20px 30px;
+    padding: 10px;
+    width: 900px;
+    border: 2px solid rgb(77, 66, 66);
+}
+
+.news-topic {
+    position: absolute;
+    display: inline;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.news-title {
+    position: absolute;
+    display: inline;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.news-desc {
+    position: absolute;
+    display: inline;
+    margin-left: 20px;
+    margin-right: 15px;
+    margin-top: 80px;
+    text-align: justify;
+}
+
+.news-detail {
+    position: absolute;
+    display: inline;
+    margin-left: 20px;
+    margin-top: 140px;
+    text-decoration: underline;
+    color: black;
+}
+
+.news-detail:hover {
+    position: absolute;
+    display: inline;
+    margin-left: 20px;
+    margin-top: 140px;
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+.footer {
+    position: relative;
+    background-color: rgb(73, 73, 73);
+}
+
+.footer p {
+    color: whitesmoke;
+    padding: 10px;
+    font-size: medium;
+    margin-left: 20px;
+}
+
+/* Id Selector */
